@@ -1,10 +1,27 @@
 # Getting Started with Create React App
+W mojej aplikacji możesz zaplanowac swoje codzienne zadania. Po ich wykonaniu zaznacz że zostało zrealizowane i gotowe nie musisz już pamiętać o tym że czegoś zapomniałeś. Zawsze możesz wrócić do zadania i zobaczyć czy już je wykonałeś. 
+W aplikacji zawiera
+
+JavaScript - ES6
+React.js
+ReactDOM, Babel
+Webpack
+Node.js
+Immutability
+HTML
+BEM convention
+CSS
+Flex
+Grid
+querySelector
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: [My App](https://arturwieczfninski.github.io/todo-list-react/)
+
+![Pictures My App](public/MyApp.png)
 
 ### `npm start`
 
