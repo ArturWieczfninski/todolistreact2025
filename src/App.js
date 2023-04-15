@@ -12,25 +12,20 @@ const tasks = [
 
 const hideDoneTasks = false;
 
-
 function App() {
   return (
     <Container>
-      <Header
-        title="Lista zadań" />
-      <Section
-        title="Dodaj nowe zadanie"
-        body={<Form />}
-      />
+      <Header title="Lista zadań" />
+      <Section title="Dodaj nowe zadanie" body={<Form />} />
       <Section
         title="Lista zadań"
-        body={
-          <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
+        body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
         exstraHeaderContent={
-          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />}
+          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
+        }
       />
     </Container>
-  )
-};
+  );
+}
 
 export default App;
